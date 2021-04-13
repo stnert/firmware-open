@@ -3,15 +3,10 @@
   Memory S3 Save data, Memory Info data and Memory Platform
   data hobs.
 
-  @copyright
+ @copyright
   Copyright (c) 1999 - 2020, Intel Corporation. All rights reserved.<BR>
-  This program and the accompanying materials are licensed and made available under
-  the terms and conditions of the BSD License that accompanies this distribution.
-  The full text of the license may be found at
-  http://opensource.org/licenses/bsd-license.php.
-  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
 
-  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+  SPDX-License-Identifier: BSD-2-Clause-Patent
 
 @par Specification Reference:
 **/
@@ -88,10 +83,10 @@ typedef struct {
 #define CHANNEL_NOT_PRESENT     0  // There is no channel present on the controller.
 #endif
 #ifndef CHANNEL_DISABLED
-#define CHANNEL_DISABLED     1  // There is a channel present but it is disabled.
+#define CHANNEL_DISABLED        1  // There is a channel present but it is disabled.
 #endif
 #ifndef CHANNEL_PRESENT
-#define CHANNEL_PRESENT     2  // There is a channel present and it is enabled.
+#define CHANNEL_PRESENT         2  // There is a channel present and it is enabled.
 #endif
 
 //
